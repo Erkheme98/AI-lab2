@@ -5,9 +5,8 @@
         <meta name="description" content="This is an awesome Website">
         <title>AI Lab Website</title>
     </head>
-    <body style="background-color: lightblue;">
-        <h1>Mongolia and UAE</h1>
-        <h2>Artificial Intelligence Laboratory</h2>
+    <body>
+        <h1> MMG AI Laboratory</h1>
         <hr/>
 
         <a href="Page.html" class="btn">Members</a>
@@ -16,15 +15,110 @@
         <a href="Project.html" >Project</a>
 
           <div class="large-hero">
-            <img src="image/font.jpg" />
+            <picture>
+              <source srcset="image/font-large.jpg, media="(min-width: 1200px)"/>
+              <source srcset="image/font-medium.jpg " media="(min-width: 900px)"/>
+              <source srcset="image/font-mediumer.jpg" media="(min-width: 600px)"/>
+              <source srcset="image/font-small.jpg" media="(min-width: 300px)"/>
+              <img class="large-hero__image" src="image/font-smaller.jpg" alt="brain"/>
+            </picture>
             <div class="large-hero__text-content">
-              <h1 class="large-hero__title">Artificial Intelligence.</h1>
-              <h2 class="large-hero__subtitle">Deep learning.</h2>
-              <p class="large-hero__description">Machine learning and Robotic system.</p>
-              <p><a href="#" class="btn btn--orange btn--large">Open</a></p>
+              <div class="wrapper"> 
+                <h1 class="large-hero__title">Artificial Intelligence.</h1>
+                <h2 class="large-hero__subtitle">Deep learning.</h2>
+                <p class="large-hero__description">Machine learning and Robotic system.</p>
+                <p><a href="#" class="btn btn--orange btn--large">Open</a></p>
+              </div>
             </div>
           </div>
-          
+          <div id="our-beginning" class="page-section">
+            <div class="wrapper">
+              <h2 class="headline headline--centered headline--light headline--b-margin-small">Бид анх <strong>өөрсдийнхөө аяллаар</strong> эхлэж байлаа.</h2>
+              <h3 class="headline headline--centered headline--orange headline--small headline--narrow headline-light headline--b-margin-large">Одоо бид <strong>бусдын аяллыг</strong> дурсамжтай болгохыг зорьж байна.</h3>
+              <div class="wrapper wrapper--medium wrapper--b-margin">
+                <img
+                sizes="(min-width: 970px) 976px, 100vw"
+                  srcset="image/first-trip-low-res.jpg 565w, image/first-trip.jpg 976w, image/first-trip-hi-dpi.jpg 1952w"
+                  alt="Couple walking down a street."
+                />
+              </div>
+              <div class="row row--gutters">
+                <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
+                  <picture>
+                    <source sizes="404px" srcset="image/our-start.jpg 404w, image/our-start-hi-dpi.jpg 808w" media="(min-width: 1200px)">
+                      <source sizes="316px" srcset="image/our-start-portrait.jpg 382w, image/our-start-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
+                    <img srcset="image/our-start-landscape.jpg 800w, image/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder, Jane Doe" />
+                  </picture>
+                  
+                </div>
+                <div class="row__medium-8 row__medium-8--smaller">
+                  <div class="generic-content-container">
+                    <h2 class="headline headline--no-t-margin">Бид хэрхэн эхлэсэн бэ?</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi
+                      ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                      qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                      Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate
+                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                      mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua.
+                    </p>
+                    <p>
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                      velit esse cillum <strong>dolore eu fugiat.</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="features" class="page-section page-section--blue">
+            <div class="wrapper">
+              <img src="image/icons/star.svg" />
+              <h2>Бидний онцлогууд</h2>
+        
+              <img src="image/icons/rain.svg" />
+              <h3>Бид цаг уурыг аждаг</h3>
+              <p>
+                Манай апп-ыг татаж авч ашиглавал бид танд бороо орохоос 20 минутын өмнө
+                мэдэгдэж байх болно. Бусад мэдээллүүдийг ч цаг тухайд нь авах боломжтой.
+              </p>
+        
+              <img src="image/icons/globe.svg" />
+              <h3>Аяллын лавлах</h3>
+              <p>
+                Таны урд хожид огт сонсож байгаагүй, дэлхий дээрх үзэсгэлэнт газрууд,
+                аялал жуулчлалын гайхалтай хотуудын талаар бид судласан бөгөөд та
+                тэдгээр газруудаас сонгон аялж болно.
+              </p>
+        
+              <img src="image/icons/wifi.svg" />
+              <h3>Wi-Fi-тай цэгүүд</h3>
+              <p>
+                Манай апп-ыг татаж авснаар өөрийн аялж буй газар оронд байгаа үнэгүй
+                wi-fi бүхий цэгүүд, нууц үгсийн мэдээллийг авах боломжтой бөгөөд хэзээ ч
+                холбоо тасрах аюулгүй болох юм.
+              </p>
+        
+              <img src="image/icons/fire.svg" />
+              <h3>Аяллын хэрэгслүүд</h3>
+              <p>
+                Та манай аяллуудаар гурваас дээш удаа аялбал бид танд майхан барих, гал
+                түлэх, хоол хийх, загас барих хэрэгслүүдийг бэлэглэх болно.
+              </p>
+            </div>
+          </div>
     <script src="bundled.js"></script>
     </body>
 </html>

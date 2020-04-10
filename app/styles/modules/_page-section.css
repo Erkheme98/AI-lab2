@@ -7,4 +7,10 @@
          background: $mainBlue;
         color: $mainWhite;
     }
+    &--testimonial{
+        background-color: #e0e6ef;
+        @mixin atLarge{        
+        background: url("/image/testimonials-bg.jpg") no-repeat top center/cover;
+        }    
+    }
 }
